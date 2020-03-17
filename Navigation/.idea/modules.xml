@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Navigation.iml" filepath="$PROJECT_DIR$/Navigation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SETC Events/SETC Events.iml" filepath="$PROJECT_DIR$/SETC Events/SETC Events.iml" />
+    </modules>
+  </component>
+</project>

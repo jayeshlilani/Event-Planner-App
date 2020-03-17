@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_aboutUs"
+            android:icon="@drawable/icons8info"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_viewMore"
+            android:icon="@drawable/icons8youtube"
+            android:title="View more" />
+        <item
+            android:id="@+id/nav_show"
+            android:icon="@drawable/showtutorial"
+            android:title="Show tutorial" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_contactUs"
+                android:icon="@drawable/icons8officephone"
+                android:title="Contact Us" />
+
+        </menu>
+    </item>
+
+</menu>

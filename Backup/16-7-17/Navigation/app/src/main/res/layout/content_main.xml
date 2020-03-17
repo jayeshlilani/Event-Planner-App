@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="smokinguns.navigation.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ViewFlipper
+                android:id="@+id/viewflipper"
+                android:layout_width="match_parent"
+                android:layout_height="222dp"
+                android:animationCache="false"
+                android:autoStart="true"
+                android:background="@drawable/imgborder"
+                android:backgroundTint="#000000"
+                android:flipInterval="3000"
+                android:inAnimation="@anim/infromleft"
+                android:outAnimation="@anim/outtoright">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/slider1" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/slider2" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/slider3" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/slider4" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/slider5" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/slider6" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/slider7" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/slider8" />
+
+            </ViewFlipper>
+
+            <ImageButton
+                android:id="@+id/im1"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/iwed" />
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/background_light"
+                android:fontFamily="cursive"
+                android:text="Personal Events"
+                android:textAllCaps="false"
+                android:textColor="?android:attr/colorMultiSelectHighlight"
+                android:textSize="24dp"
+                android:textStyle="normal|bold" />
+
+
+            <ImageButton
+                android:id="@+id/im2"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/isocial" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/background_light"
+                android:fontFamily="cursive"
+                android:text="Social Events"
+                android:textAllCaps="false"
+                android:textColor="?android:attr/colorMultiSelectHighlight"
+                android:textSize="24dp"
+                android:textStyle="normal|bold" />
+
+            <ImageButton
+                android:id="@+id/im3"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/icorp" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/background_light"
+                android:fontFamily="cursive"
+                android:text="Corporate Events"
+                android:textAllCaps="false"
+                android:textColor="?android:attr/colorMultiSelectHighlight"
+                android:textSize="24dp"
+                android:textStyle="normal|bold" />
+
+            <ImageButton
+                android:id="@+id/im4"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/iparty" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/background_light"
+                android:fontFamily="cursive"
+                android:text="Institutional Events"
+                android:textAllCaps="false"
+                android:textColor="?android:attr/colorMultiSelectHighlight"
+                android:textSize="24dp"
+                android:textStyle="normal|bold" />
+
+
+            <ImageButton
+                android:id="@+id/im5"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/iexb" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/background_light"
+                android:fontFamily="cursive"
+                android:text="Government Events"
+                android:textAllCaps="false"
+                android:textColor="?android:attr/colorMultiSelectHighlight"
+                android:textSize="24dp"
+                android:textStyle="normal|bold" />
+
+
+            <ImageButton
+                android:id="@+id/im6"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/ioth" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@android:color/background_light"
+                android:fontFamily="cursive"
+                android:text="Custom Event"
+                android:textAllCaps="false"
+                android:textColor="?android:attr/colorMultiSelectHighlight"
+                android:textSize="24dp"
+                android:textStyle="normal|bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

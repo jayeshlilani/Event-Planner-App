@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4D9ED1</color>
+    <color name="colorPrimaryDark">#4D9ED1</color>
+    <color name="colorAccent">#0277bd</color>
+
+    <color name="btn_book">#4D9ED1</color>
+    <color name="btn_text">#ffffff</color>
+    <color name="color_fabplus">#4D9ED1</color>
+    <color name="color_fabphone">#4db6ac</color>
+    <color name="color_fabfb">#311b92</color>
+    <color name="white">#ffffff</color>
+    <color name="edittextunderline">#B07D4A</color>
+    <color name ="login_button_background">#B07D4A</color>
+    <color name ="bg_login">#FAF9F7</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#428bca</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+    <color name="mdtp_accent_color">#009688</color>
+    <color name="mdtp_accent_color_dark">#00796b</color>
+</resources>

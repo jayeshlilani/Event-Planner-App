@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="smokinguns.etc">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/smgicon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="smokinguns.etc.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        \
+        <activity
+            android:name="smokinguns.etc.domestic"
+            android:label="SETC Events"
+            android:parentActivityName="smokinguns.etc.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="smokinguns.etc.MainActivity" />
+        </activity>
+        <activity
+            android:name="smokinguns.etc.social"
+            android:label="SETC Events"
+            android:parentActivityName="smokinguns.etc.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="smokinguns.etc.MainActivity" />
+        </activity>
+        <activity
+            android:name="smokinguns.etc.corporate"
+            android:label="SETC Events"
+            android:parentActivityName="smokinguns.etc.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="smokinguns.etc.MainActivity" />
+        </activity>
+        <activity
+            android:name="smokinguns.etc.institutional"
+            android:label="SETC Events"
+            android:parentActivityName="smokinguns.etc.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="smokinguns.etc.MainActivity" />
+        </activity>
+        <activity
+            android:name="smokinguns.etc.govt"
+            android:label="SETC Events"
+            android:parentActivityName="smokinguns.etc.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="smokinguns.etc.MainActivity" />
+        </activity>
+        <activity android:name="smokinguns.etc.splashscreen">
+
+        </activity>
+        <activity android:name="smokinguns.etc.services" />
+        <activity
+            android:name="smokinguns.etc.about"
+            android:label="About Us"
+            android:parentActivityName="smokinguns.etc.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="smokinguns.etc.MainActivity" />
+        </activity>
+        <activity
+            android:name="smokinguns.etc.postbooking"
+            android:label="SETC Events"
+            android:parentActivityName="smokinguns.etc.checkdistance"
+            android:windowSoftInputMode="adjustPan">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="smokinguns.etc.checkdistance" />
+        </activity>
+        <activity android:name="smokinguns.etc.custom" />
+        <activity
+            android:name="smokinguns.etc.checkdistance"
+            android:label="SETC Events"
+            android:parentActivityName="smokinguns.etc.services">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="smokinguns.etc.services" />
+        </activity>
+        <activity
+            android:name="smokinguns.etc.gallery"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name="smokinguns.etc.viewmore"
+            android:theme="@style/FullScreen" />
+        <activity android:name="smokinguns.etc.appintro" />
+        <activity android:name="smokinguns.etc.sp">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="smokinguns.etc.contact"
+            android:label="SETC Events"
+            android:parentActivityName="smokinguns.etc.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="smokinguns.etc.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

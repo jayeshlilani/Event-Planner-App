@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_domestic"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    tools:context="smokinguns.navigation.domestic">
+
+    <TextView
+        android:id="@+id/tvhead"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:textAlignment="center"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:text="Which Social Event?"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="normal|bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="2dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/border_shape">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/im1"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:adjustViewBounds="false"
+                        android:background="@drawable/border_shape"
+                        android:clickable="true"
+                        android:fadingEdge="horizontal|vertical"
+                        android:soundEffectsEnabled="false"
+                        android:src="@drawable/holi" />
+
+                    <TextView
+                        android:id="@+id/tv1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:clickable="true"
+                        android:fontFamily="cursive"
+                        android:gravity="center_vertical"
+                        android:text="Holi Rain Dance"
+                        android:textColor="@android:color/black"
+                        android:textSize="32dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/im2"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:adjustViewBounds="false"
+                        android:background="@drawable/border_shape"
+                        android:clickable="true"
+                        android:fadingEdge="horizontal|vertical"
+                        android:soundEffectsEnabled="false"
+                        android:src="@drawable/janmashtmi" />
+
+                    <TextView
+                        android:id="@+id/tv2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:clickable="true"
+                        android:fontFamily="cursive"
+                        android:gravity="center_vertical"
+                        android:text="Dahi Handi"
+                        android:textColor="@android:color/black"
+                        android:textSize="32dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/im3"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:adjustViewBounds="false"
+                        android:background="@drawable/border_shape"
+                        android:clickable="true"
+                        android:fadingEdge="horizontal|vertical"
+                        android:soundEffectsEnabled="false"
+                        android:src="@drawable/independece" />
+
+                    <TextView
+                        android:id="@+id/tv3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:clickable="true"
+                        android:fontFamily="cursive"
+                        android:gravity="center_vertical"
+                        android:text="Independence Day"
+                        android:textColor="@android:color/black"
+                        android:textSize="32dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/im4"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:adjustViewBounds="false"
+                        android:background="@drawable/border_shape"
+                        android:clickable="true"
+                        android:fadingEdge="horizontal|vertical"
+                        android:soundEffectsEnabled="false"
+                        android:src="@drawable/ganpati" />
+
+                    <TextView
+                        android:id="@+id/tv4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:clickable="true"
+                        android:fontFamily="cursive"
+                        android:gravity="center_vertical"
+                        android:text="Ganesh Chaturthi"
+                        android:textColor="@android:color/black"
+                        android:textSize="32dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/im5"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:adjustViewBounds="false"
+                        android:background="@drawable/border_shape"
+                        android:clickable="true"
+                        android:fadingEdge="horizontal|vertical"
+                        android:soundEffectsEnabled="false"
+                        android:src="@drawable/navratri" />
+
+                    <TextView
+                        android:id="@+id/tv5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:clickable="true"
+                        android:fontFamily="cursive"
+                        android:gravity="center_vertical"
+                        android:text="Navratri"
+                        android:textColor="@android:color/black"
+                        android:textSize="32dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/im6"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:adjustViewBounds="false"
+                        android:background="@drawable/border_shape"
+                        android:clickable="true"
+                        android:fadingEdge="horizontal|vertical"
+                        android:soundEffectsEnabled="false"
+                        android:src="@drawable/diwali" />
+
+                    <TextView
+                        android:id="@+id/tv6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:clickable="true"
+                        android:fontFamily="cursive"
+                        android:gravity="center_vertical"
+                        android:text="Diwali"
+                        android:textColor="@android:color/black"
+                        android:textSize="32dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/im7"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:adjustViewBounds="false"
+                        android:background="@drawable/border_shape"
+                        android:clickable="true"
+                        android:fadingEdge="horizontal|vertical"
+                        android:soundEffectsEnabled="false"
+                        android:src="@drawable/christmas" />
+
+                    <TextView
+                        android:id="@+id/tv7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:clickable="true"
+                        android:fontFamily="cursive"
+                        android:gravity="center_vertical"
+                        android:text="Christmas"
+                        android:textColor="@android:color/black"
+                        android:textSize="32dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/im8"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:adjustViewBounds="false"
+                        android:background="@drawable/border_shape"
+                        android:clickable="true"
+                        android:fadingEdge="horizontal|vertical"
+                        android:soundEffectsEnabled="false"
+                        android:src="@drawable/newyear" />
+
+                    <TextView
+                        android:id="@+id/tv8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:clickable="true"
+                        android:fontFamily="cursive"
+                        android:gravity="center_vertical"
+                        android:text="New Year"
+                        android:textColor="@android:color/black"
+                        android:textSize="32dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/im9"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:adjustViewBounds="false"
+                        android:background="@drawable/border_shape"
+                        android:clickable="true"
+                        android:fadingEdge="horizontal|vertical"
+                        android:soundEffectsEnabled="false"
+                        android:src="@drawable/funfair" />
+
+                    <TextView
+                        android:id="@+id/tv9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:clickable="true"
+                        android:fontFamily="cursive"
+                        android:gravity="center_vertical"
+                        android:text="Fun Fair"
+                        android:textColor="@android:color/black"
+                        android:textSize="32dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/im10"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:adjustViewBounds="false"
+                        android:background="@drawable/border_shape"
+                        android:clickable="true"
+                        android:fadingEdge="horizontal|vertical"
+                        android:soundEffectsEnabled="false"
+                        android:src="@drawable/picnic" />
+
+                    <TextView
+                        android:id="@+id/tv10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:clickable="true"
+                        android:fontFamily="cursive"
+                        android:gravity="center_vertical"
+                        android:text="Picnic"
+                        android:textColor="@android:color/black"
+                        android:textSize="32dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/im11"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:adjustViewBounds="false"
+                        android:background="@drawable/border_shape"
+                        android:clickable="true"
+                        android:fadingEdge="horizontal|vertical"
+                        android:soundEffectsEnabled="false"
+                        android:src="@drawable/roadshows" />
+
+                    <TextView
+                        android:id="@+id/tv11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:clickable="true"
+                        android:fontFamily="cursive"
+                        android:gravity="center_vertical"
+                        android:text="Road Shows"
+                        android:textColor="@android:color/black"
+                        android:textSize="32dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/im12"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:adjustViewBounds="false"
+                        android:background="@drawable/border_shape"
+                        android:clickable="true"
+                        android:fadingEdge="horizontal|vertical"
+                        android:soundEffectsEnabled="false"
+                        android:src="@drawable/others" />
+
+                    <TextView
+                        android:id="@+id/tv12"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:clickable="true"
+                        android:fontFamily="cursive"
+                        android:gravity="center_vertical"
+                        android:text="Other Festivals"
+                        android:textColor="@android:color/black"
+                        android:textSize="32dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/im13"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:adjustViewBounds="false"
+                        android:background="@drawable/border_shape"
+                        android:clickable="true"
+                        android:fadingEdge="horizontal|vertical"
+                        android:soundEffectsEnabled="false"
+                        android:src="@drawable/custom" />
+
+                    <TextView
+                        android:id="@+id/tv13"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:clickable="true"
+                        android:fontFamily="cursive"
+                        android:gravity="center_vertical"
+                        android:text="Custom Event"
+                        android:textColor="@android:color/black"
+                        android:textSize="32dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

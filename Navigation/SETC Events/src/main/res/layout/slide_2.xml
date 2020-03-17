@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/tvhead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="cursive"
+        android:text="Select the Services"
+        android:textAlignment="center"
+        android:textColor="@color/intro_text"
+        android:textSize="32dp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_below="@+id/tvhead"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ss3" />
+
+
+</RelativeLayout>

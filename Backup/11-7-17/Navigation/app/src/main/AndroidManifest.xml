@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="smokinguns.navigation">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".contact" />
+        <activity android:name=".char_baloon" />
+        <activity android:name=".domestic" />
+        <activity android:name=".social" />
+        <activity android:name=".corporate" />
+        <activity android:name=".institutional" />
+        <activity android:name=".govt" />
+        <activity android:name=".splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".services" />
+        <activity android:name=".sound" />
+        <activity android:name=".about" />
+        <activity android:name=".postbooking" />
+        <activity android:name=".lights" />
+        <activity android:name=".decor" />
+        <activity android:name=".av" />
+        <activity android:name=".powersupply" />
+        <activity android:name=".security" />
+        <activity android:name=".catering" />
+        <activity android:name=".pyro" />
+        <activity android:name=".transport" />
+        <activity android:name=".print" />
+        <activity android:name=".venue" />
+        <activity android:name=".special" />
+        <activity android:name=".artist" />
+        <activity android:name=".custom"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_domestic"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:background="#ffffff"
+    tools:context="smokinguns.etc.domestic">
+    <TextView
+        android:id="@+id/tvhead"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:textAlignment="center"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:text="Which Personal Event?"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="normal|bold"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="2dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/border_shape"
+        >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/im1"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:adjustViewBounds="false"
+                        android:fadingEdge="horizontal|vertical"
+                        android:soundEffectsEnabled="false"
+                        android:src="@drawable/shower"
+                        android:clickable="true"
+                        android:background="@drawable/border_shape"
+                         />
+
+                    <TextView
+                        android:id="@+id/tv1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:text="Baby Shower"
+                        android:fontFamily="cursive"
+                        android:textStyle="bold"
+                        android:clickable="true"
+                        android:textColor="@android:color/black"
+                        android:textSize="32dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/im2"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:clickable="true"
+                        android:background="@drawable/border_shape"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:adjustViewBounds="false"
+                        android:fadingEdge="horizontal|vertical"
+                        android:soundEffectsEnabled="false"
+                        android:src="@drawable/naming" />
+
+                    <TextView
+                        android:id="@+id/tv2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:text="Naming Ceremony"
+                        android:fontFamily="cursive"
+                        android:textStyle="bold"
+                        android:clickable="true"
+                        android:textColor="@android:color/black"
+                        android:textSize="32dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/im3"
+                        android:layout_width="80dp"
+                        android:clickable="true"
+                        android:background="@drawable/border_shape"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:adjustViewBounds="false"
+                        android:fadingEdge="horizontal|vertical"
+                        android:soundEffectsEnabled="false"
+                        android:src="@drawable/birthday" />
+
+                    <TextView
+                        android:id="@+id/tv3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:text="Birthday"
+                        android:fontFamily="cursive"
+                        android:textStyle="bold"
+                        android:clickable="true"
+                        android:textColor="@android:color/black"
+                        android:textSize="32dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/im4"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:adjustViewBounds="false"
+                        android:fadingEdge="horizontal|vertical"
+                        android:clickable="true"
+                        android:background="@drawable/border_shape"
+                        android:soundEffectsEnabled="false"
+                        android:src="@drawable/engagement" />
+
+                    <TextView
+                        android:id="@+id/tv4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:text="Engagement"
+                        android:fontFamily="cursive"
+                        android:textStyle="bold"
+                        android:clickable="true"
+                        android:textColor="@android:color/black"
+                        android:textSize="32dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/im5"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:adjustViewBounds="false"
+                        android:fadingEdge="horizontal|vertical"
+                        android:clickable="true"
+                        android:background="@drawable/border_shape"
+                        android:soundEffectsEnabled="false"
+                        android:src="@drawable/wedding"/>
+
+                    <TextView
+                        android:id="@+id/tv5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:text="Wedding"
+                        android:fontFamily="cursive"
+                        android:textStyle="bold"
+                        android:clickable="true"
+                        android:textColor="@android:color/black"
+                        android:textSize="32dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/im6"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:adjustViewBounds="false"
+                        android:clickable="true"
+                        android:background="@drawable/border_shape"
+                        android:fadingEdge="horizontal|vertical"
+                        android:soundEffectsEnabled="false"
+                        android:src="@drawable/anniversary" />
+
+                    <TextView
+                        android:id="@+id/tv6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:text="Anniversary"
+                        android:fontFamily="cursive"
+                        android:textStyle="bold"
+                        android:clickable="true"
+                        android:textColor="@android:color/black"
+                        android:textSize="32dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/im7"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:adjustViewBounds="false"
+                        android:clickable="true"
+                        android:background="@drawable/border_shape"
+                        android:fadingEdge="horizontal|vertical"
+                        android:soundEffectsEnabled="false"
+                        android:src="@drawable/regional" />
+
+                    <TextView
+                        android:id="@+id/tv7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:text="Regional Events"
+                        android:fontFamily="cursive"
+                        android:textStyle="bold"
+                        android:clickable="true"
+                        android:textColor="@android:color/black"
+                        android:textSize="32dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/im8"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="20dp"
+                        android:adjustViewBounds="false"
+                        android:clickable="true"
+                        android:background="@drawable/border_shape"
+                        android:fadingEdge="horizontal|vertical"
+                        android:soundEffectsEnabled="false"
+                        android:src="@drawable/custom" />
+
+                    <TextView
+                        android:id="@+id/tv8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="20dp"
+                        android:text="Custom Event"
+                        android:fontFamily="cursive"
+                        android:textStyle="bold"
+                        android:clickable="true"
+                        android:textColor="@android:color/black"
+                        android:textSize="32dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+    </ScrollView>
+</RelativeLayout>
